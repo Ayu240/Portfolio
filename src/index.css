@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "a";
+   src:url("../public/FoundersGrotesk-Semibold.ttf")
+}
+
+@font-face {
+  font-family: "b";
+   src:url("../public/NeueMontreal-Regular.ttf")
+}
+
+@font-face {
+  font-family: "c";
+   src:url("../public/NeueMontreal-Regular.woff2")
+}
+@font-face {
+  font-family: "s";
+   src:url("../public/Tallest-bold.ttf")
+}
+@font-face {
+  font-family: "d";
+   src:url("../public/tallest-slim.otf")
+}
+
+
+::selection{
+  color:#FF6E00
+}
+
+/* index.css */
+::-webkit-scrollbar {
+  display: none;
+}
