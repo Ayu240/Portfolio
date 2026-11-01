@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className='w-full h-full bg-[#eaeaea] mt-[7vh] relative'>
             <div className=" flex  h-[38%] justify-start  -mt-[4.5vh]  ">
-                <h1 className=' text-[30vw] font-bold font-[b] tracking-tight leading-[35vh] select-none' >
+                <h1 className=' text-[26vw] font-bold font-[b] tracking-tight leading-[35vh] select-none' >
                    aboutme
 
                 </h1>
