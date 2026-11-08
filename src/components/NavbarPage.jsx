@@ -20,26 +20,26 @@ const NavbarPage = () => {
     })
       .to(homeRef.current, {
         x: '59.2vw', 
-        duration: 1,
+        duration: 0.5,
         ease: 'power2.inOut',
       });
 
     gsap.to(aboutRef.current,{
       x: '58vw',
-      duration: 1.5,
+      duration: 1,
       ease: "power2.inOut",
     })
     gsap.to(proRef.current, {
       x: '-78vw',
-      duration: 1.5,
+      duration: 0.9,
       ease: "power3.inOut",
-      deylay: 1
+      deylay: 0.2
     })
     gsap.to(contRef.current, {
       x: '-54vw',
       duration: 1,
       ease: "power2.inOut",
-      delay: 0.5
+      delay: 0.2
     })
 
   }, [])
