@@ -22,7 +22,7 @@ const ContactSection = () => {
     {
         id: 4,
         name: 'mail',
-        link: 'https://www.linkedin.com/in/its-me-ayush/'
+        link: 'mailto:av609497@gmail.com'
     }]
 
     const [data, setData] = useState(rowdata);
@@ -81,9 +81,6 @@ const ContactSection = () => {
                 })}
 
             </div>
-
-
-
 
         </div>
     )
